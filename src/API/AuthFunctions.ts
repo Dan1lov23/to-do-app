@@ -10,7 +10,7 @@ async function LoginFunction (username:string, password:string, setError: (error
     })
     .then(res => res.json())
     .then(data => {
-        if (data.marker === false) {
+        if (data.marker  === false) {
             setError(data.body);
         } else {
             localStorage.setItem('token', data.token);
