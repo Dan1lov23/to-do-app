@@ -1,6 +1,6 @@
 async function GetTasksFunction() {
     try {
-        const response = await fetch('https://to-do-server-xgml.onrender.com/tasks/getTasks', {
+        const response = await fetch('https://to-do-app-8gpq.onrender.com/tasks/getTasks', {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -16,7 +16,7 @@ async function GetTasksFunction() {
 }
 
 async function CreateTaskFunction(taskName:string, passwordDescription:string, username:null | string) {
-    fetch('https://to-do-server-xgml.onrender.com/tasks/createTask', {
+    fetch('https://to-do-app-8gpq.onrender.com/tasks/createTask', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -26,7 +26,7 @@ async function CreateTaskFunction(taskName:string, passwordDescription:string, u
 }
 
 async function DeleteTaskFunction(username: string | null, taskId:string) {
-    fetch('https://to-do-server-xgml.onrender.com/tasks/deleteTask', {
+    fetch('https://to-do-app-8gpq.onrender.com/tasks/deleteTask', {
         method: 'DELETE',
         headers: {
             'Content-Type': 'application/json',
@@ -36,7 +36,7 @@ async function DeleteTaskFunction(username: string | null, taskId:string) {
 }
 
 async function UpdateTaskMarkerFunction(markerValue:string, taskId:string) {
-    fetch('https://to-do-server-xgml.onrender.com/tasks/updateTaskMarker', {
+    fetch('https://to-do-app-8gpq.onrender.comtasks/updateTaskMarker', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -46,7 +46,7 @@ async function UpdateTaskMarkerFunction(markerValue:string, taskId:string) {
 }
 
 async function ChangeTaskFunction(taskName:string, taskDescription:string, taskId:string) {
-    fetch('https://to-do-server-xgml.onrender.com/tasks/changeTask', {
+    fetch('https://to-do-app-8gpq.onrender.com/tasks/changeTask', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -56,7 +56,7 @@ async function ChangeTaskFunction(taskName:string, taskDescription:string, taskI
 }
 
 async function ChangeFavoriteFunction(taskId:string) {
-    fetch('https://to-do-server-xgml.onrender.com/tasks/changeFavorite', {
+    fetch('https://to-do-app-8gpq.onrender.com/tasks/changeFavorite', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
