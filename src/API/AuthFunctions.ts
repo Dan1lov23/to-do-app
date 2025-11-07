@@ -1,7 +1,7 @@
 import type {NavigateFunction} from "react-router-dom";
 
 async function LoginFunction (username:string, password:string, setError: (error:string) => void) {
-    fetch('http://localhost:3000/auth/login', {
+    fetch('https://to-do-server-xgml.onrender.com/auth/login', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -21,7 +21,7 @@ async function LoginFunction (username:string, password:string, setError: (error
 }
 
 async function RegisterFunction(username:string, password:string, setError: (error:string) => void, navigate:NavigateFunction) {
-    fetch('http://localhost:3000/auth/register', {
+    fetch('https://to-do-server-xgml.onrender.com/auth/register', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -40,7 +40,7 @@ async function RegisterFunction(username:string, password:string, setError: (err
 
 async function CheckLogin(): Promise<boolean> {
     try {
-        const response = await fetch('http://localhost:3000/auth/loginCheck', {
+        const response = await fetch('https://to-do-server-xgml.onrender.com/auth/loginCheck', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ token: localStorage.getItem("token") }),
