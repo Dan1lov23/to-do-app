@@ -1,0 +1,11 @@
+.favoriteButton {
+    p {
+        text-align: right;
+        margin-right: 20px;
+        font-size: 35px;
+        transition: var(--transition);
+    }
+    p:hover {
+        cursor: pointer;
+    }
+}

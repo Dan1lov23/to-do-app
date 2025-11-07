@@ -1,0 +1,11 @@
+.mobileHeaderLogo {
+    p {
+        display: inline-block;
+        font-size: 2rem;
+        transition: var(--transition);
+        color: var(--primary-color);
+    }
+    p:hover {
+        text-shadow: var(--text-shadow);
+    }
+}

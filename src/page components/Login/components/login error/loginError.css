@@ -1,0 +1,8 @@
+.loginError {
+    margin: 10px;
+    text-align: center;
+    p {
+        font-size: 1.6rem;
+        color: var(--red-color);
+    }
+}

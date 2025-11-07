@@ -1,0 +1,7 @@
+.homeLogo {
+    text-align: center;
+    p {
+        font-size: 40px;
+        color: var(--primary-color);
+    }
+}

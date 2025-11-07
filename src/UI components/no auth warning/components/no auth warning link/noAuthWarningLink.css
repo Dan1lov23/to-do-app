@@ -1,0 +1,14 @@
+.noAuthWarningLink {
+    margin: 10px;
+    text-align: center;
+    p {
+        color: var(--primary-color);
+        font-size: 2rem;
+    }
+    .noAuthWarningLinkP {
+        transition: var(--transition);
+    }
+    .noAuthWarningLinkP:hover {
+        text-shadow: var(--text-shadow);
+    }
+}

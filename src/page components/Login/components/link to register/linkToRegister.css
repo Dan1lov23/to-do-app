@@ -1,0 +1,16 @@
+.linkToRegister {
+    text-align: center;
+    margin-top: 7%;
+    p {
+        font-size: 1.6rem;
+        text-align: center;
+        color: var(--primary-color);
+    }
+    .link {
+        text-align: center;
+        transition: var(--transition);
+    }
+    .link:hover {
+        text-shadow: var(--text-shadow);
+    }
+}

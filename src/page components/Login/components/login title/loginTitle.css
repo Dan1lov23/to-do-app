@@ -1,0 +1,11 @@
+.loginTitle {
+    text-align: center;
+    p {
+        font-size: 3.2rem;
+        color: var(--primary-color);
+        transition: var(--transition);
+    }
+    p:hover {
+        text-shadow: var(--text-shadow);
+    }
+}

@@ -1,0 +1,38 @@
+.changeTaskButton {
+    text-align: center;
+    .changeTaskButtonStartButton {
+        width: 350px;
+        height: 40px;
+        border: 2px solid var(--primary-color);
+        border-radius: var(--border-radius);
+        background-color: var(--background-color);
+        font-size: 23px;
+        color: var(--primary-color);
+        transition: var(--transition);
+    }
+
+    .changeTaskButtonStartButton:hover {
+        cursor: pointer;
+        color: var(--background-color);
+        background-color: var(--primary-color);
+    }
+}
+
+.changeTaskButtonFinalButton {
+    text-align: center;
+    margin-top: 5%;
+    width: 290px;
+    height: 40px;
+    border: 2px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    background-color: var(--background-color);
+    font-size: 23px;
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+.changeTaskButtonFinalButton:hover {
+    cursor: pointer;
+    color: var(--background-color);
+    background-color: var(--primary-color);
+}

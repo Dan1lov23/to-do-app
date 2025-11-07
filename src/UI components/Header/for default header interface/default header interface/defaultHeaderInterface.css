@@ -1,0 +1,6 @@
+.defaultHeaderInterface {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 20% 80%;
+    border-bottom: 2px solid var(--primary-color);
+}

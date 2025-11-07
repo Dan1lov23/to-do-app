@@ -1,0 +1,12 @@
+.loginContainer {
+    width: 400px;
+    height: 520px;
+    border: 2px solid var(--primary-color);
+    border-radius: var(--border-radius);
+}
+
+@media(max-width: 768px) {
+    .loginContainer {
+        width: 380px;
+    }
+}

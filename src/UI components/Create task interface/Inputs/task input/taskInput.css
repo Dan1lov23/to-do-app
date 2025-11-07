@@ -1,0 +1,14 @@
+.taskInput {
+    margin-top: 10%;
+    text-align: center;
+    input {
+        text-align: center;
+        width: 300px;
+        height: 40px;
+        color: var(--primary-color);
+        font-size: 20px;
+        border-radius: var(--border-radius);
+        background: var(--background-color);
+        border: 2px solid var(--primary-color);
+    }
+}

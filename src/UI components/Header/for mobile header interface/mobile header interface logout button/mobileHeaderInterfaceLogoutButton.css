@@ -1,0 +1,8 @@
+.mobileHeaderInterfaceLogoutButton {
+    border-bottom: 2px solid var(--background-color);
+    p {
+        margin-left: 5%;
+        color: var(--background-color);
+        font-size: 35px;
+    }
+}

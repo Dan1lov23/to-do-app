@@ -1,0 +1,12 @@
+.registerContainer {
+    width: 400px;
+    height: 560px;
+    border: 2px solid var(--primary-color);
+    border-radius: var(--border-radius);
+}
+
+@media(max-width: 768px) {
+    .registerContainer {
+        width: 380px;
+    }
+}

@@ -1,0 +1,28 @@
+.logoutButton {
+    text-align: right;
+    p {
+        font-size: 2.8rem;
+        transition: var(--transition);
+        color: var(--primary-color);
+    }
+    p:hover {
+        cursor: pointer;
+    }
+}
+
+.logoutButtonFinalButton {
+    width: 330px;
+    height: 40px;
+    border: 2px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    background-color: var(--background-color);
+    font-size: 23px;
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+.logoutButtonFinalButton:hover {
+    cursor: pointer;
+    color: var(--background-color);
+    background-color: var(--primary-color);
+}

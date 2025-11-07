@@ -1,0 +1,12 @@
+.taskMarker {
+    margin-left: 25px;
+    p {
+        font-size: 20px;
+        color: var(--primary-color);
+        transition: var(--transition);
+    }
+    p:hover {
+        cursor: pointer;
+        scale: var(--scale);
+    }
+}

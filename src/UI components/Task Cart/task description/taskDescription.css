@@ -1,0 +1,13 @@
+.taskDescription {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    p {
+        text-align: center;
+        color: var(--primary-color);
+        width: calc(30ch);
+        overflow-wrap: break-word;
+        transition: var(--transition);
+    }
+}

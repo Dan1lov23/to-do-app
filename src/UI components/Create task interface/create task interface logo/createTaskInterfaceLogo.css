@@ -1,0 +1,7 @@
+.createTaskMobileInterfaceLogo {
+    text-align: center;
+    p {
+        color: var(--primary-color);
+        font-size: 35px;
+    }
+}

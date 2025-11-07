@@ -1,0 +1,9 @@
+.linksAndButtonsList {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    .linkP {
+        width: 200px;
+        display: grid;
+        align-items: center;
+    }
+}

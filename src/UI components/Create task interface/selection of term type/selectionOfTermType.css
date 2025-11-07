@@ -1,0 +1,12 @@
+.selectionOfTermType {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, max-content);
+    border: 1px solid var(--primary-color);
+    width: 200px;
+    p {
+        margin: 20px;
+        font-size: 30px;
+        color: var(--primary-color);
+    }
+}

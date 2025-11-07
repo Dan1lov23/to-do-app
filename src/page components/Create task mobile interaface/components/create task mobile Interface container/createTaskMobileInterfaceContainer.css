@@ -1,0 +1,6 @@
+.createTaskMobileInterfaceContainer {
+    width: 380px;
+    height: 550px;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+}

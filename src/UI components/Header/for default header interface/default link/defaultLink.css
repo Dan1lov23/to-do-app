@@ -1,0 +1,12 @@
+.link {
+    text-align: right;
+    p {
+        display: inline;
+        transition: var(--transition);
+        color: var(--primary-color);
+        font-size: 2.8rem;
+    }
+    p:hover {
+        text-shadow: var(--text-shadow);
+    }
+}

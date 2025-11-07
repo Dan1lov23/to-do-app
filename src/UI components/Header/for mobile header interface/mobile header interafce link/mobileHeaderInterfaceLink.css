@@ -1,0 +1,8 @@
+.mobileHeaderInterfaceLink {
+    border-bottom: 2px solid var(--background-color);
+    p {
+        font-size: 35px;
+        margin-left: 5%;
+        color: var(--background-color);
+    }
+}
